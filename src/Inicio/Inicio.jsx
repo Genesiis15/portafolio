@@ -1,4 +1,4 @@
-import { FaGithub, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import gene from '../assets/gene.png'
 import cv from '../assets/cv.pdf'
 export const Inicio = () => {
@@ -19,7 +19,9 @@ export const Inicio = () => {
                         <a href="https://github.com/Genesiis15" target="_blank" rel="noreferrer">
                             <FaGithub size={40} className=" cursor-pointer text-lg hover:text-white hover:text-pink-300 hover:border-transparent" />
                         </a>
-                        <FaFacebook size={40} className=" cursor-pointer hover:text-white hover:text-pink-300 hover:border-transparent" />
+                        <a href="https://www.linkedin.com/in/genesis-rojas-a185012a9/" target="_blank" rel="noreferrer" >
+                            <FaLinkedin size={40} className=" cursor-pointer hover:text-white hover:text-pink-300 hover:border-transparent" />
+                        </a>
                     </div>
                 </div>
             </div>

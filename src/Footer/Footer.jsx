@@ -1,4 +1,4 @@
-import { FaGithub, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React from 'react';
 
 import cv from '../assets/cv.pdf'
@@ -22,7 +22,9 @@ export const Footer = () => {
                         <a href="https://github.com/Genesiis15" target="_blank" rel="noreferrer">
                             <FaGithub size={40} className=" cursor-pointer text-lg hover:text-white hover:text-pink-300 hover:border-transparent" />
                         </a>
-                        <FaFacebook size={40} className=" cursor-pointer hover:text-white hover:text-pink-300 hover:border-transparent" />
+                        <a href="https://www.linkedin.com/in/genesis-rojas-a185012a9/" target="_blank" rel="noreferrer" >
+                            <FaLinkedin size={40} className=" cursor-pointer hover:text-white hover:text-pink-300 hover:border-transparent" />
+                        </a>
                     </div>
                     <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
                 </div>
